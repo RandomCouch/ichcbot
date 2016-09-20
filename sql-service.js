@@ -1,10 +1,10 @@
 var mysql = require('mysql');
 var createQuery = function(query, next) {
     var connection = mysql.createConnection({
-        host: 'nickhaidar.com',
-        user: 'undefined',
-        password: 'undefinedBot2016!',
-        database: 'bot'
+        host: 'server.com',
+        user: '',
+        password: '',
+        database: ''
     });
 
     connection.connect(function(err, conn) {
